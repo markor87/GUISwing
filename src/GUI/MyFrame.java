@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -10,9 +12,9 @@ public class MyFrame extends JFrame {
         this.setSize(420, 420);
         this.setVisible(true);
 
-        ImageIcon image = new ImageIcon("C:\\Users\\mrado\\IdeaProjects\\GUISwing\\src\\java.png");
+        ImageIcon image = new ImageIcon("https://github.com/markor87/GUISwing/blob/master/src/java.png?raw=true");
         this.setIconImage(image.getImage());
-        this.getContentPane().setBackground(new Color(123,50,250));
+        this.getContentPane().setBackground(new Color(163, 128, 234));
 
 }
 }
