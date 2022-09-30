@@ -10,7 +10,6 @@ public class Main {
         ImageIcon icon = new ImageIcon("C:\\Users\\marko.radovanovic\\IdeaProjects\\GUISwing\\src\\java.png");
         Border border = BorderFactory.createLineBorder(Color.GREEN,3);
 
-
         JLabel label = new JLabel();
         label.setText("Pa ja lomim ovaj kod");
         label.setIcon(icon);
